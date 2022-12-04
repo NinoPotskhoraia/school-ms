@@ -1,0 +1,220 @@
+
+li {
+  margin-right: 30px;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  color:white;
+}
+
+.nav-link{
+  color:#FF5733;
+}
+
+
+
+h1,h2{
+ 
+
+
+  
+  line-height: 70px;
+  
+  letter-spacing: 5px;
+  margin: 0 auto;
+}
+
+h1{
+  color:#FF5733;
+  font-size: 95px;
+  max-width: 60%;
+  padding-bottom:1em;
+  padding-top:2em;
+}
+
+h2{
+  color:white;
+  padding:0;
+  padding-bottom: 10px;
+  font-size: 45px;
+  background-color: rgba(0, 0, 0, 0.53);
+  max-width:70%;
+  text-align: center;
+  border-radius: 5px;
+  border:2px solid rgb(149, 145, 145);
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 24px;
+}
+
+.card-body, .card{
+ background-color: rgba(255, 252, 255, 0.7);
+ border-radius: 1rem;
+ min-height:50vh;
+
+}
+.card{
+  margin-top: 50px;
+}
+
+.card-body{
+  padding: 40px 50px;
+}
+
+form{
+  width:20%;
+  margin-bottom: 50px;
+}
+
+input{
+  margin-bottom: 10px;
+  padding:5px 10px;
+  border-radius: 5px;
+  background: transparent;
+  outline: 2px solid #FF5733;
+  outline-offset: 1px;
+  border:1px solid rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"]{
+   appearance: none;
+}
+
+#birth,
+#birthday{
+  width:200px;
+}
+
+.input-outline{
+  min-height:60px;
+}
+
+.find label{
+  margin-bottom: 5px;
+}
+
+
+
+p{
+  max-width:200px;
+}
+
+.find input{
+  margin-right: 10px;
+}
+
+button{
+  min-width:80px;
+  border:none;
+}
+
+i{
+  color:gray;
+}
+
+i:hover{
+  color:#FF5733;
+}
+
+.homeBtn{
+  background-color:#FF5733;
+   color:white;
+}
+
+.homeBtn:hover{
+  background-color: gray;
+}
+
+.hide{
+  display:none;
+}
+
+.find{
+  min-height:250px;
+}
+
+.find-pupil{
+  width:20%;
+}
+
+.teacher-form,
+.pupil-form{
+  width:35%;
+}
+.teacher-form input{
+  display: block;
+}
+
+section {
+  background-image: url("../assets/pexels-monstera-6238297.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height:90.8vh;
+}
+
+@media(max-width:768px){
+  h2{
+    margin-bottom: 0;
+    font-size:36px;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+
+  #findSubject,
+  #findPupil,
+  #findTeacher{
+    margin:0 0 20px 0;
+  }
+}
+
+@media(max-width:320px){
+  h1{
+    font-size:24px;
+    line-height: 30px;
+  }
+
+  h2{
+    font-size:18px;
+    margin-bottom: 0;
+    line-height: 30px;
+  }
+
+
+
+
+  #sub{
+    width:200px;
+  }
+
+  .card-body{
+    position: relative;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.pupil-form,
+.teacher-form{
+  padding-left:35px;
+}
+
+  .teacher-btn{
+    position:absolute;
+    top:40%;
+  }
+  
+}
+
+
+
