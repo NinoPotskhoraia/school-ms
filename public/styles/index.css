@@ -67,7 +67,7 @@ h3{
 }
 
 form{
-  width:20%;
+  width:50%;
   margin-bottom: 50px;
 }
 
@@ -104,12 +104,11 @@ p{
   max-width:200px;
 }
 
-/* .find input{
-  margin-right: 10px;
-} */
+
 
 button{
   min-width:80px;
+  max-width:200px;
   border:none;
 }
 
@@ -139,12 +138,16 @@ i:hover{
 }
 
 .find-pupil{
-  width:20%;
+  min-width:20%;
 }
 
 .teacher-form,
 .pupil-form{
-  width:35%;
+  min-width:30%;
+}
+
+form div:first-child{
+  margin-right: 10px;
 }
 .teacher-form input{
   display: block;
