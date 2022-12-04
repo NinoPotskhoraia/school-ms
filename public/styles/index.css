@@ -104,9 +104,9 @@ p{
   max-width:200px;
 }
 
-.find input{
+/* .find input{
   margin-right: 10px;
-}
+} */
 
 button{
   min-width:80px;
@@ -211,7 +211,7 @@ section {
 
   .teacher-btn{
     position:absolute;
-    top:40%;
+    top:35%;
   }
   
 }
